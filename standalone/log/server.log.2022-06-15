@@ -1,0 +1,31 @@
+2022-06-15 10:34:21,884 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0272: Suspending server
+2022-06-15 10:34:21,896 INFO  [org.jboss.as.ejb3] (Thread-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2022-06-15 10:34:21,902 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2022-06-15 10:34:21,941 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2022-06-15 10:34:21,941 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/KeycloakDS]
+2022-06-15 10:34:21,947 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2022-06-15 10:34:21,954 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2022-06-15 10:34:21,978 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0022: Unregistered web context: '/auth' from server 'default-server'
+2022-06-15 10:34:22,093 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2022-06-15 10:34:22,097 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2022-06-15 10:34:22,139 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+2022-06-15 10:34:22,166 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment keycloak-server.war (runtime-name: keycloak-server.war) in 253ms
+2022-06-15 10:34:22,169 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0003: Stopped offlineClientSessions cache from keycloak container
+2022-06-15 10:34:22,169 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0003: Stopped offlineSessions cache from keycloak container
+2022-06-15 10:34:22,169 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 74) WFLYCLINF0003: Stopped loginFailures cache from keycloak container
+2022-06-15 10:34:22,169 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped actionTokens cache from keycloak container
+2022-06-15 10:34:22,169 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped clientSessions cache from keycloak container
+2022-06-15 10:34:22,169 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0003: Stopped work cache from keycloak container
+2022-06-15 10:34:22,169 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0003: Stopped authenticationSessions cache from keycloak container
+2022-06-15 10:34:22,169 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 76) WFLYCLINF0003: Stopped sessions cache from keycloak container
+2022-06-15 10:34:22,171 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0003: Stopped keys cache from keycloak container
+2022-06-15 10:34:22,186 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2022-06-15 10:34:22,189 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2022-06-15 10:34:22,191 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 2.2.5.Final stopping
+2022-06-15 10:34:22,251 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped authorization cache from keycloak container
+2022-06-15 10:34:22,252 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 78) WFLYCLINF0003: Stopped users cache from keycloak container
+2022-06-15 10:34:22,252 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 80) WFLYCLINF0003: Stopped realms cache from keycloak container
+2022-06-15 10:34:22,253 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 80) Stopping cache manager null on null
+2022-06-15 10:34:22,468 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2022-06-15 10:34:22,469 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 69) Stopping cache manager null on null
+2022-06-15 10:34:22,478 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: Keycloak 15.0.2 (WildFly Core 15.0.1.Final) stopped in 566ms
